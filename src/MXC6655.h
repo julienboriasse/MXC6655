@@ -12,9 +12,12 @@ Distributed as-is; no warranty is given.
 #ifndef MXC6655_h
 #define MXC6655_h
 
+#if (ARDUINO >= 100)
+#include <Arduino.h>
+#include <Wire.h>
+#else
 #include <Particle.h>
-// #include <Arduino.h>
-// #include <Wire.h>
+#endif
 
 class MXC6655
 {
