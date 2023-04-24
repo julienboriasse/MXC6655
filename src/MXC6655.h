@@ -1,6 +1,8 @@
 /******************************************************************************
 MXC6655.cpp
 Library for MXC6655 accelerometer 
+Bobby Schulz @ GEMS Sensing
+8/1/2022
 Julien Boriasse
 4/24/2023
 
